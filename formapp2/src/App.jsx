@@ -161,7 +161,7 @@ function App() {
           id='Everything'
           value= "Everything"
           checked={formData.pushNotification == "Everything"}
-          /><label htmlFor="everything">Everything</label>
+          /><label htmlFor="Everything">Everything</label>
           <br />
           <input type="radio" 
           onChange={changeHandler}
@@ -169,15 +169,15 @@ function App() {
           id='Same-as-email'
           value= "Same-as-email"
           checked={formData.pushNotification == "Same-as-email"}
-          /><label htmlFor="everything">Same as Email</label>
+          /><label htmlFor="Same-as-email">Same as Email</label>
           <br />
           <input type="radio" 
           onChange={changeHandler}
-          name='pushNotifications'
+          name='pushNotification'
           id='No-push-notifications'
           value= "No-push-notifications"
           checked={formData.pushNotification == "No-push-notifications"}
-          /><label htmlFor="everything">No push Notifications</label>
+          /><label htmlFor="No-push-notifications">No push Notifications</label>
         </fieldset>
         <button>Submit</button>
         </form>
